@@ -1,5 +1,3 @@
-#include<iostream>
-
 /*
 使用ANSI转义序列设置终端输出文字的颜色
 \033[显示方式;前景色;背景色m
@@ -8,6 +6,8 @@
 背景色：40（黑色）、41（红色）、42（绿色）、43（黄色）、44（蓝色）、45（洋红色）、46（青色）、47（白色）
 \033[0m 关闭颜色设置
 */
+#include<iostream>
+
 
 int main(){
     std::cout << "\033[31m" << "This is a red text on yellow background" << "\033[0m" << std::endl;
