@@ -1,5 +1,5 @@
 /*
-猜数字
+*   The game of guessing the number
 */
 
 #include<iostream>
